@@ -1,0 +1,92 @@
+@startuml
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+'!$AWS_DARK = true
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v16.0/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/ApplicationIntegration/APIGateway.puml
+!include AWSPuml/ApplicationIntegration/EventBridge.puml
+!include AWSPuml/Compute/LambdaLambdaFunction.puml
+!include AWSPuml/Database/DynamoDB.puml
+!include AWSPuml/Database/RDS.puml
+!include AWSPuml/General/all.puml
+!include AWSPuml/Groups/all.puml
+!include AWSPuml/Storage/SimpleStorageService.puml
+
+' Groups are rectangles with a custom style using stereotype - need to hide
+hide stereotype
+skinparam linetype ortho
+skinparam rectangle {
+    BackgroundColor AWS_BG_COLOR
+    BorderColor transparent
+}
+
+rectangle "Which Option is a 'better' diagram?" {
+
+  GenericGroup(option1, "Option 1 - AWS icons") {
+    rectangle "$UserIMG()\nUser" as user
+    AWSCloudGroup(cloud){
+      rectangle "$APIGatewayIMG()\nAPI Gateway" as api
+      rectangle "$DynamoDBIMG()\nDynamoDB" as permissions
+      rectangle "$RDSIMG()\nRDS" as db
+      rectangle "$SimpleStorageServiceIMG()\nS3" as audit
+      rectangle "$EventBridgeIMG()\nEventBridge" as events
+
+      user -r-> api
+        
+      StepFunctionsWorkflowGroup(sfw) {
+        rectangle "$LambdaLambdaFunctionIMG()\ncheck permissions" as lf1
+        rectangle "$LambdaLambdaFunctionIMG()\nbusiness logic" as lf2
+        rectangle "$LambdaLambdaFunctionIMG()\ndata access" as lf3
+        rectangle "$LambdaLambdaFunctionIMG()\naudit log" as lf4
+        rectangle "$LambdaLambdaFunctionIMG()\ndata events" as lf5
+
+        api -r-> lf1
+        lf1 -r-> lf2
+        lf1 -d-> permissions
+        lf2 -r-> lf3
+        lf3 -d-> db
+        lf3 -r-> lf4
+        lf4 -d-> audit
+        lf4 -r-> lf5
+        lf5 -d-> events      
+      }
+    }
+  }
+
+  GenericGroup(option2, "Option 2 - generic icons") {
+    rectangle "$UserIMG()\nUser" as user2
+    AWSCloudGroup(cloud2){
+      rectangle "$TraditionalserverIMG()\nAPI Gateway" as api2
+      rectangle "$GenericdatabaseIMG()\nNoSQL" as permissions2
+      rectangle "$GenericdatabaseIMG()\nRDBMS" as db2
+      rectangle "$DiskIMG()\nstorage" as audit2
+      rectangle "$SourceCodeIMG()\nevent bus" as events2
+
+      user2 -r-> api2
+        
+      GenericAltGroup(sfw2, "workflow") {
+        rectangle "$SDKIMG()\ncheck permissions" as f1
+        rectangle "$SDKIMG()\nbusiness logic" as f2
+        rectangle "$SDKIMG()\ndata access" as f3
+        rectangle "$SDKIMG()\naudit log" as f4
+        rectangle "$SDKIMG()\ndata events" as f5
+
+        api2 -r-> f1
+        f1 -r-> f2
+        f1 -d-> permissions2
+        f2 -r-> f3
+        f3 -d-> db2
+        f3 -r-> f4
+        f4 -d-> audit2
+        f4 -r-> f5
+        f5 -d-> events2
+      }
+    }
+  }
+
+  option2 -[hidden]u-- option1
+
+}
+@enduml

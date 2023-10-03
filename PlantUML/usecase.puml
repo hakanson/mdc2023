@@ -1,0 +1,22 @@
+@startuml Diagrams Use Cases
+
+title Use Cases
+
+left to right direction
+actor "Kevin" as kevin <<architect>>
+actor "Audience" as mdc2023
+rectangle "Diagrams" {
+  usecase "create presentation" as uc1
+  usecase "write documentation" as uc2
+  usecase "solution design" as uc3
+
+  usecase "?" as uc4
+}
+
+kevin --> uc1
+kevin --> uc2
+kevin --> uc3
+
+mdc2023 --> uc4
+
+@enduml

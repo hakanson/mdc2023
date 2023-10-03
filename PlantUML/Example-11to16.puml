@@ -1,0 +1,38 @@
+@startuml Two Modes - Simple View
+'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
+' Release 11.1; Oct 8, 2021
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v11.1/dist
+' Release 13.1; Jul 25, 2022
+'!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v13.1/dist
+' Release 16.0; Jun 19, 2023
+'!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v16.0/dist
+'!$AWS_DARK = true
+
+!includeurl AWSPuml/AWSCommon.puml
+
+' Comment out the following line to create technical view
+!include AWSPuml/AWSSimplified.puml
+
+!includeurl AWSPuml/General/Users.puml
+!includeurl AWSPuml/ApplicationIntegration/APIGateway.puml
+!includeurl AWSPuml/SecurityIdentityCompliance/Cognito.puml
+!includeurl AWSPuml/Compute/Lambda.puml
+!includeurl AWSPuml/Database/DynamoDB.puml
+
+left to right direction
+
+Users(sources, "Events", "millions of users")
+APIGateway(votingAPI, "Voting API", "user votes")
+Cognito(userAuth, "User Authentication", "jwt to submit votes")
+Lambda(generateToken, "User Credentials", "return jwt")
+Lambda(recordVote, "Record Vote", "enter or update vote per user")
+DynamoDB(voteDb, "Vote Database", "one entry per user")
+
+sources --> userAuth
+sources --> votingAPI
+userAuth <--> generateToken
+votingAPI --> recordVote
+recordVote --> voteDb
+@enduml

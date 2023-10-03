@@ -1,0 +1,423 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-10-03T13:56:59Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIgewogICAgICAgICAgICB0YWdzICJVc2VyIgogICAgICAgIH0KICAgICAgICBzb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJWaWRlbyBUcmFuc2NyaXB0aW9uIFNlcnZpY2UiIHsKICAgICAgICAgICAKICAgICAgICAgICAgczNidWNrZXQgPSBjb250YWluZXIgIkFtYXpvbiBTMyBidWNrZXQiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIlNpbXBsZVN0b3JhZ2VTZXJ2aWNlQnVja2V0IgoKICAgICAgICAgICAgICAgIHVzZXIgLT4gdGhpcyAiVXBsb2FkcyIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgb2JqZWN0Y3JlYXRlZCA9IGNvbnRhaW5lciAiT2JqZWN0Q3JlYXRlZCBldmVudCBoYW5kbGVyIiAiIiAiQVdTIExhbWJkYSBmdW5jdGlvbiIgewogICAgICAgICAgICAgICAgdGFncyAiTGFtYmRhTGFtYmRhRnVuY3Rpb24iCgogICAgICAgICAgICAgICAgY29tcG9uZW50ICJCb3RvMyIgIkFXUyBTREsgZm9yIFB5dGhvbiIgewogICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlB5dGhvbiBwYWNrYWdlIgogICAgICAgICAgICAgICAgICAgIHVybCBodHRwczovL2F3cy5hbWF6b24uY29tL3Nkay1mb3ItcHl0aG9uLwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBzM2J1Y2tldCAtPiB0aGlzICJPYmplY3RDcmVhdGVkIGV2ZW50IgogICAgICAgICAgICB9CgogICAgICAgICAgICBzdGVwZnVuY3Rpb24gPSBjb250YWluZXIgInRyYW5zY3JpYmUgd29ya2Zsb3ciICIiICJTdGVwIEZ1bmN0aW9ucyB3b3JrZmxvdyIgewogICAgICAgICAgICAgICAgdGFncyAiU3RlcEZ1bmN0aW9ucyIKCiAgICAgICAgICAgICAgICBvYmplY3RjcmVhdGVkIC0+IHRoaXMKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZXh0cmFjdGF1ZGlvID0gY29udGFpbmVyICJleHRyYWN0IGF1ZGlvIiAiIiAiQVdTIExhbWJkYSBmdW5jdGlvbiIgewogICAgICAgICAgICAgICAgdGFncyAiTGFtYmRhTGFtYmRhRnVuY3Rpb24iCgogICAgICAgICAgICAgICAgY29tcG9uZW50ICJCb3RvMyIgIkFXUyBTREsgZm9yIFB5dGhvbiIgewogICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlB5dGhvbiBwYWNrYWdlIgogICAgICAgICAgICAgICAgICAgIHVybCBodHRwczovL2F3cy5hbWF6b24uY29tL3Nkay1mb3ItcHl0aG9uLwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHN0ZXBmdW5jdGlvbiAtPiB0aGlzICJzdGVwIDEiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG1lZGlhY29udmVydCA9IGNvbnRhaW5lciAiQVdTIEVsZW1lbnRhbCBNZWRpYUNvbnZlcnQiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIkVsZW1lbnRhbE1lZGlhQ29udmVydCIKCiAgICAgICAgICAgICAgICBleHRyYWN0YXVkaW8gLT4gdGhpcyAiY3JlYXRlIGpvYiIKICAgICAgICAgICAgICAgIHRoaXMgLT4gczNidWNrZXQgInNhdmUgYXVkaW8iCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRyYW5zY3JpYmVhdWRpbyA9IGNvbnRhaW5lciAidHJhbnNjcmliZSBhdWRpbyIgIiIgIkFXUyBMYW1iZGEgZnVuY3Rpb24iIHsKICAgICAgICAgICAgICAgIHRhZ3MgIkxhbWJkYUxhbWJkYUZ1bmN0aW9uIgoKICAgICAgICAgICAgICAgIGNvbXBvbmVudCAiQm90bzMiICJBV1MgU0RLIGZvciBQeXRob24iIHsKICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJQeXRob24gcGFja2FnZSIKICAgICAgICAgICAgICAgICAgICB1cmwgaHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9zZGstZm9yLXB5dGhvbi8KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBzdGVwZnVuY3Rpb24gLT4gdGhpcyAic3RlcCAyIgogICAgICAgICAgICB9CgogICAgICAgICAgICB0cmFuc2NyaWJlID0gY29udGFpbmVyICJBbWF6b24gVHJhbnNjcmliZSIgewogICAgICAgICAgICAgICAgdGFncyAiVHJhbnNjcmliZSIKCiAgICAgICAgICAgICAgICB0cmFuc2NyaWJlYXVkaW8gLT4gdGhpcyAic3RhcnQgdHJhbnNjcmlwdGlvbiBqb2IiCiAgICAgICAgICAgICAgICB0aGlzIC0+IHMzYnVja2V0ICJzYXZlIHRyYW5zY3JpcHRpb24iCiAgICAgICAgICAgIH0KCgoKICAgICAgICB9CgogICAgICAgIGxpdmUgPSBkZXBsb3ltZW50RW52aXJvbm1lbnQgIkxpdmUiIHsKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBXZWIgU2VydmljZXMiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIkFXU0Nsb3VkIgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAidXMtZWFzdC0xIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiUmVnaW9uIgoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIFMzIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIlNpbXBsZVN0b3JhZ2VTZXJ2aWNlIgoKICAgICAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2UgczNidWNrZXQKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBV1MgU3RlcCBGdW5jdGlvbnMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiU3RlcEZ1bmN0aW9ucyIKCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIGV4dHJhY3RhdWRpbwogICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSB0cmFuc2NyaWJlYXVkaW8KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGluZnJhc3RydWN0dXJlTm9kZSAiQVdTIEVsZW1lbnRhbCBNZWRpYUNvbnZlcnQiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiRWxlbWVudGFsTWVkaWFDb252ZXJ0IgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaW5mcmFzdHJ1Y3R1cmVOb2RlICJBbWF6b24gVHJhbnNjcmliZSIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJUcmFuc2NyaWJlIgogICAgICAgICAgICAgICAgICAgIH0gICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IHNvZnR3YXJlU3lzdGVtICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgc29mdHdhcmVTeXN0ZW0gewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IG9iamVjdGNyZWF0ZWQgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgZGVwbG95bWVudCBzb2Z0d2FyZVN5c3RlbSBsaXZlIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIHRoZW1lIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9hd3NsYWJzL2F3cy1pY29ucy1mb3ItcGxhbnR1bWwvdjE2LjAvZGlzdC9hd3MtaWNvbnMtc3RydWN0dXJpenItdGhlbWUuanNvbgogICAgfQoKfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,User",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "User",
+      "relationships" : [ {
+        "id" : "4",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Uploads"
+      }, {
+        "id" : "5",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Uploads",
+        "linkedRelationshipId" : "4"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "softwaresystem"
+      },
+      "name" : "Video Transcription Service",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "20",
+        "tags" : "Element,Container,Transcribe",
+        "properties" : {
+          "structurizr.dsl.identifier" : "transcribe"
+        },
+        "name" : "Amazon Transcribe",
+        "relationships" : [ {
+          "id" : "22",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "3",
+          "description" : "save transcription"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container,SimpleStorageServiceBucket",
+        "properties" : {
+          "structurizr.dsl.identifier" : "s3bucket"
+        },
+        "name" : "Amazon S3 bucket",
+        "relationships" : [ {
+          "id" : "8",
+          "tags" : "Relationship",
+          "sourceId" : "3",
+          "destinationId" : "6",
+          "description" : "ObjectCreated event"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,LambdaLambdaFunction",
+        "properties" : {
+          "structurizr.dsl.identifier" : "extractaudio"
+        },
+        "name" : "extract audio",
+        "relationships" : [ {
+          "id" : "15",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "14",
+          "description" : "create job"
+        } ],
+        "technology" : "AWS Lambda function",
+        "components" : [ {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "url" : "https://aws.amazon.com/sdk-for-python/",
+          "name" : "Boto3",
+          "description" : "AWS SDK for Python",
+          "technology" : "Python package",
+          "size" : 0
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container,StepFunctions",
+        "properties" : {
+          "structurizr.dsl.identifier" : "stepfunction"
+        },
+        "name" : "transcribe workflow",
+        "relationships" : [ {
+          "id" : "13",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "11",
+          "description" : "step 1"
+        }, {
+          "id" : "19",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "17",
+          "description" : "step 2"
+        } ],
+        "technology" : "Step Functions workflow",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,ElementalMediaConvert",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mediaconvert"
+        },
+        "name" : "AWS Elemental MediaConvert",
+        "relationships" : [ {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "14",
+          "destinationId" : "3",
+          "description" : "save audio"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,LambdaLambdaFunction",
+        "properties" : {
+          "structurizr.dsl.identifier" : "objectcreated"
+        },
+        "name" : "ObjectCreated event handler",
+        "relationships" : [ {
+          "id" : "10",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "9"
+        } ],
+        "technology" : "AWS Lambda function",
+        "components" : [ {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "url" : "https://aws.amazon.com/sdk-for-python/",
+          "name" : "Boto3",
+          "description" : "AWS SDK for Python",
+          "technology" : "Python package",
+          "size" : 0
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container,LambdaLambdaFunction",
+        "properties" : {
+          "structurizr.dsl.identifier" : "transcribeaudio"
+        },
+        "name" : "transcribe audio",
+        "relationships" : [ {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "17",
+          "destinationId" : "20",
+          "description" : "start transcription job"
+        } ],
+        "technology" : "AWS Lambda function",
+        "components" : [ {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "url" : "https://aws.amazon.com/sdk-for-python/",
+          "name" : "Boto3",
+          "description" : "AWS SDK for Python",
+          "technology" : "Python package",
+          "size" : 0
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "23",
+      "tags" : "Element,Deployment Node,AWSCloud",
+      "name" : "Amazon Web Services",
+      "environment" : "Live",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "24",
+        "tags" : "Element,Deployment Node,Region",
+        "name" : "us-east-1",
+        "environment" : "Live",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "25",
+          "tags" : "Element,Deployment Node,SimpleStorageService",
+          "name" : "Amazon S3",
+          "environment" : "Live",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "26",
+            "tags" : "Container Instance",
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "3"
+          } ]
+        }, {
+          "id" : "27",
+          "tags" : "Element,Deployment Node,StepFunctions",
+          "name" : "AWS Step Functions",
+          "environment" : "Live",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "29",
+            "tags" : "Container Instance",
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "17"
+          }, {
+            "id" : "28",
+            "tags" : "Container Instance",
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "11"
+          } ]
+        } ],
+        "infrastructureNodes" : [ {
+          "id" : "31",
+          "tags" : "Element,Infrastructure Node,Transcribe",
+          "name" : "Amazon Transcribe",
+          "environment" : "Live"
+        }, {
+          "id" : "30",
+          "tags" : "Element,Infrastructure Node,ElementalMediaConvert",
+          "name" : "AWS Elemental MediaConvert",
+          "environment" : "Live"
+        } ]
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext",
+      "order" : 1,
+      "softwareSystemId" : "2",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "5"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 2,
+      "softwareSystemId" : "2",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "14",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "9",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "20",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "4"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "10"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-001",
+      "order" : 3,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "6",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "Deployment-001",
+      "order" : 4,
+      "softwareSystemId" : "2",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Live",
+      "elements" : [ {
+        "id" : "23",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "24",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "25",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "26",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "27",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "28",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "29",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "30",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "31",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "shape" : "Person"
+        } ]
+      },
+      "themes" : [ "https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v16.0/dist/aws-icons-structurizr-theme.json" ],
+      "terminology" : { }
+    }
+  }
+}
